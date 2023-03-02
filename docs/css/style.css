@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Super-Eurobeat";
+  src: url(../fonts/super-eurobeat.otf);
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.8)), url("../images/First_Stage_Eyecatch_1_16x9.jpg");
+  background-attachment: fixed;
+  background-color: #1a1c1d;
+  color: white;
+  font-family: Super-Eurobeat, Helvetica, Arial, sans-serif;
+}
+
+.center-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  padding: 2em;
+}
+
+.image-right {
+  float: right;
+  margin-left: 1em;
+  margin-top: 13em;
+}
+
+h1 {
+  font-size: 4em;
+  transition: opacity 0.5s ease-in-out;
+}
+
+p {
+  font-size: 2em;
+  transition: opacity 0.5s ease-in-out;
+}
+
+img {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.easter-egg {
+  position: fixed;
+  bottom: 10px;
+  width: 50px;
+  transform: rotate(22.5deg);
+}
